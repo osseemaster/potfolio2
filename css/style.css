@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  font-family: 'Poppins',Helvetica,Arial, sans-serif;
+}
+/*section one*/
+.sectionOne{
+  height: 125vh;
+  background-color:rgb(234, 226, 226);
+}
+.sectionOne .header{
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sectionOne .logo{
+  margin-left: 50px;
+  font-size: 70px;
+}
+.navigation-item{
+  margin-right: 60px;
+  text-decoration: none;
+}
+.icons{
+  margin-right: 50px;
+}
+.fa-facebook{
+  margin: 15px;
+  font-size: 20px;
+}
+.content{
+  height: 73vh;
+  background-image:url(/image/kattie\ reed.jpeg) ;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+}
+.contact-output{
+  margin-top: 30px;
+  width: 30%;
+  text-align: center;
+  height: 15%;
+}
+.name{
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  width: 30%;
+  height: 40%;
+  text-align: center;
+  line-height: 60px;
+}
+.name h2{
+  font-size: 50px;
+  color: white;
+}
+.name p{
+  font-size: 20px;
+  color: white;
+}
+.sectionOne .down{
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left{
+  height:40vh;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+}
+.right{
+  height: 40vh;
+  width: 70%;
+}
+.right p{
+  margin-top: 50px;
+}
+.left h3{
+  font-size: 50px;
+  font-weight: 500;
+  text-shadow: 4px 4px 6px;
+  margin-top: 40px;
+}
+.contact-input{
+  margin-top: 30px;
+  width: 15%;
+  text-align: center;
+  height: 10%;
+}
+.sectionTwo{
+  height: 88vh;
+  background-color: rgb(10, 7, 10);
+}
+.sectionTwo .title{
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+.title p{
+  width: 90%;
+  text-align: center;
+}
+.title h2{
+  color: aqua;
+  font-size: 50px;
+  font-weight: 500;
+}
+.title p{
+  color: aqua;
+}
+.sectionTwo .body{
+  height: 62vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: blanchedalmond; */
+}
+.focus{
+  height: 30vh;
+  width: 15%;
+  color: white;
+  line-height: 40px;
+  /* background-color: aqua; */
+}
+.focus h2{
+  text-decoration: underline;
+  font-size: 20px;
+}
+.languages{
+  height: 45vh;
+  width: 20%;
+  /* background-color: rgb(0, 195, 255); */
+}
+.languages div{
+  width: 270px; 
+  height: 40px; 
+  border: 1px solid white; 
+  margin: 5px; 
+  text-align:left;
+  line-height: 40px;
+}
+.meal{
+  background-color:rgb(115, 115, 234);
+  padding: 8px 12px;
+  border-radius: 0 5px 5px 0;
+}
+.sectionThree{
+  height: 85vh;
+  /* background-color: red; */
+}
+.sectionThree .start{
+  height: 20%;
+  background-color:rgb(226, 219, 219);
+}
+.start h2{
+  font-size: 60px;
+  font-weight: 400;
+}
+.sectionThree .last{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color:rgb(226, 219, 219);
+}
+.menu{
+  height: 50%;
+  width: 70%;
+  display: flex;
+  margin-bottom: 40px;
+}
+.item{
+  width: 35%;
+  position: relative;
+  background-color: beige;
+}
+.sectionThree .mobile{
+  margin: 0 30px;
+}
+.sectionThree .mobile{
+  background-color: rgb(116, 111, 111);
+}
+.principle{
+  height: 50%;
+  width: 70%;
+  margin-bottom: 40px;
+  display: flex;
+  /* background-color:palevioletred; */
+}
+.yow{
+  width: 35%;
+  position: relative;
+  background-color:gold;
+}
+.sectionThree .mobileappl{
+  margin: 0 30px;
+}
+.sectionThree .mobileappl{
+  background-color: aqua;
+}
+.item .tag{
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  text-decoration: underline;
+}
+.yow .tag{
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  text-decoration: underline;
+}
+.sectionLast{
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;  
+}
+.tough{
+  width: 12%;
+  height: 60%;
+  color: white;
+}
+.tough p{
+  font-size: 20px;
+  font-weight: 600;
+}
+.online{
+  width: 10%;
+}
+.contact-me{
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+.fa-brands{
+  font-size: 20px;
+  color: white;
+}
+
+  
+
+
+
